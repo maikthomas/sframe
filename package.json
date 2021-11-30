@@ -6,7 +6,7 @@
   "main": "dist_github/index.js",
   "scripts": {
     "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
