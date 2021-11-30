@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Utils\": () => (/* reexport safe */ _lib_Utils__WEBPACK_IMPORTED_MODULE_0__.Utils),\n/* harmony export */   \"SFrame\": () => (/* reexport safe */ _Client__WEBPACK_IMPORTED_MODULE_1__.SFrame)\n/* harmony export */ });\n/* harmony import */ var _lib_Utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/Utils */ \"./lib/Utils.js\");\n/* harmony import */ var _Client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Client */ \"./Client.js\");\nasdsad\n;\n\n\n\n\n\n//# sourceURL=webpack://sframe/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Utils\": () => (/* reexport safe */ _lib_Utils__WEBPACK_IMPORTED_MODULE_0__.Utils),\n/* harmony export */   \"SFrame\": () => (/* reexport safe */ _Client__WEBPACK_IMPORTED_MODULE_1__.SFrame)\n/* harmony export */ });\n/* harmony import */ var _lib_Utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/Utils */ \"./lib/Utils.js\");\n/* harmony import */ var _Client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Client */ \"./Client.js\");\n\n\n\n\n\n\n//# sourceURL=webpack://sframe/./index.js?");
 
 /***/ }),
 
