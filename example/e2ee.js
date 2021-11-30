@@ -1,4 +1,4 @@
-import {SFrame, Utils} from "../dist/bundle.js"
+import {SFrame, Utils} from "../lib/index.js"
 
 async function connect()
 {

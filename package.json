@@ -2,7 +2,7 @@
   "name": "sframe",
   "version": "0.1.0",
   "description": "",
-  "module": "index.js",
+  "module": "lib/index.js",
   "main": "dist_github/index.js",
   "scripts": {
     "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
