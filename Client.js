@@ -1,7 +1,5 @@
 //Get worker url
-url = new URL('./Worker.js?inline', import.meta.url);
-
-
+const url = new URL('./Worker.js?inline', import.meta.url);
 
 /**
  * SFrame library
