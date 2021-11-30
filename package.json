@@ -2,9 +2,11 @@
   "name": "sframe",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "module": "index.js",
+  "main": "dist_github/index.js",
   "scripts": {
-    "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false"
+    "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
+    "build": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
