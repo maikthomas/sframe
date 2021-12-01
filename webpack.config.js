@@ -9,9 +9,14 @@ module.exports = {
   module: {
     rules: [
       {
-        resourceQuery: /inline/,
-        type: 'asset/inline',
-      }
+        test: /Worker\.js$/,
+        use: {
+          loader: 'worker-loader',
+          options: {
+            inline: 'fallback',
+          },
+        },
+      },
     ]
   },
   resolve: {
