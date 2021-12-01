@@ -13,7 +13,7 @@ module.exports = {
         use: {
           loader: 'worker-loader',
           options: {
-            inline: 'no-fallback',
+            inline: 'fallback',
           },
         },
       },
