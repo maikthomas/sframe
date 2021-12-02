@@ -8,8 +8,17 @@ module.exports = {
   },
   module: {
     rules: [
+      // {
+      //   test: /Worker\.js$/,
+      //   use: {
+      //     loader: 'worker-loader',
+      //     options: {
+      //       inline: 'fallback',
+      //     },
+      //   },
+      // },
       {
-        test: /Worker\.js$/,
+        test: /\.worker\.js$/,
         use: {
           loader: 'worker-loader',
           options: {
