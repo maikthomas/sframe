@@ -19,15 +19,23 @@ module.exports = {
       //     },
       //   },
       // },
-      {
-        test: /\.worker\.js$/,
-        use: {
-          loader: 'worker-loader',
+      // {
+        // test: /\.worker\.js$/,
+        // use: {
+        //   loader: 'worker-loader',
+        //   options: {
+        //     inline: 'no-fallback',
+        //   },
+        // },
+        {
+          test: /\.worker\.js$/i,
+          loader: "worker-loader",
           options: {
-            inline: 'fallback',
+            esModule: false,
+            inline: 'no-fallback',
           },
         },
-      },
+      // },
     ]
   },
   resolve: {
