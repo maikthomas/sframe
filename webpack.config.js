@@ -17,15 +17,15 @@ module.exports = {
       //     },
       //   },
       // },
-      // {
-      //   test: /\.worker\.js$/,
-      //   use: {
-      //     loader: 'worker-loader',
-      //     options: {
-      //       inline: 'fallback',
-      //     },
-      //   },
-      // },
+      {
+        test: /\.worker\.js$/,
+        use: {
+          loader: 'worker-loader',
+          options: {
+            inline: 'fallback',
+          },
+        },
+      },
     ]
   },
   resolve: {
