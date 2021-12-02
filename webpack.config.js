@@ -5,6 +5,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist_github'),
     filename: 'bundle.js',
+    libraryTarget: 'umd',
+    library: 'sframe',
   },
   module: {
     rules: [
