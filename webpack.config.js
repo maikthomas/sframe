@@ -28,7 +28,7 @@ module.exports = {
         //   },
         // },
         {
-          test: /\.worker\.js$/i,
+          test: /Worker\.js$/i,
           loader: "worker-loader",
           options: {
             esModule: false,
