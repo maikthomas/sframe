@@ -1,7 +1,5 @@
 //Get worker url
-import Worker from './Worker.js';
-// const Worker = require('./sframe.worker').default;
-console.log('Worker: ', Worker);
+import Worker from './sframe.worker.js';
 
 /**
  * SFrame library

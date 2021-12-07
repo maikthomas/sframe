@@ -1,6 +1,6 @@
-import {Context} from "./Context.js";
-import {VP8PayloadHeader}  from "./VP8PayloadHeader.js";
-import {Utils} from "./Utils.js";
+import {Context} from "./lib/Context.js";
+import {VP8PayloadHeader}  from "./lib/VP8PayloadHeader.js";
+import {Utils} from "./lib/Utils.js";
 
 class TaskQueue
 {

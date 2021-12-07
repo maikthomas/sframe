@@ -1,42 +1,24 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lib/index.js',
+  entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist_github'),
     filename: 'bundle.js',
-    // libraryTarget: 'umd',
-    // library: 'sframe',
+    libraryTarget: 'umd',
+    library: 'sframe',
   },
   module: {
     rules: [
-      // {
-      //   test: /Worker\.js$/,
-      //   use: {
-      //     loader: 'worker-loader',
-      //     options: {
-      //       inline: 'fallback',
-      //     },
-      //   },
-      // },
-      // {
-        // test: /\.worker\.js$/,
-        // use: {
-        //   loader: 'worker-loader',
-        //   options: {
-        //     inline: 'no-fallback',
-        //   },
-        // },
-        {
-          test: /Worker\.js$/i,
-          loader: "worker-loader",
-          options: {
-            esModule: false,
-            inline: 'no-fallback',
-          },
+      {
+        test: /\.worker\.(c|m)?js$/i,
+        loader: 'worker-loader',
+        options: {
+          inline: 'no-fallback',
+          esModule: true,
         },
-      // },
-    ]
+      },
+    ],
   },
   resolve: {
     extensions: ['.js'],
