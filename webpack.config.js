@@ -16,15 +16,8 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, 'dist_github'),
+    path: path.resolve(__dirname, 'dist'),
     library: 'sframe',
     libraryTarget: 'umd',
-  },
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
-    compress: true,
-    port: 9000,
   },
 };
