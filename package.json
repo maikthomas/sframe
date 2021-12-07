@@ -2,7 +2,7 @@
   "name": "sframe",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "dist_github/main.js",
   "scripts": {
     "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
     "build": "webpack --mode=development",
@@ -18,10 +18,9 @@
     "url": "https://github.com/medooze/sframe/issues"
   },
   "homepage": "https://github.com/medooze/sframe#readme",
-  "dependencies": {
+  "devDependencies": {
     "webpack": "^4.46.0",
     "webpack-cli": "^4",
-    "webpack-dev-server": "^4.6.0",
     "worker-loader": "^3.0.8"
   }
 }

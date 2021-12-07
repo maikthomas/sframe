@@ -16,7 +16,7 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist_github'),
     library: 'sframe',
     libraryTarget: 'umd',
   },
