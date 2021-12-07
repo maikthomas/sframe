@@ -5,8 +5,7 @@
   "main": "dist_github/main.js",
   "scripts": {
     "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
-    "build": "webpack --mode=development",
-    "postinstall": "npm run build"
+    "build": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
