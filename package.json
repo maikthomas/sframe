@@ -2,7 +2,7 @@
   "name": "sframe",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist_github/main.js",
   "scripts": {
     "docs": "documentation build Client.js --shallow -o api.md -f md --markdown-toc false",
     "build": "webpack --mode=development"
